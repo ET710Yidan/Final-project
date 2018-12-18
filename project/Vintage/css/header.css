@@ -1,0 +1,80 @@
+
+.expand-column-wrapper {
+  height: 100vh;
+  max-wdtih: 75rem;
+}
+
+.expand-column-wrapper .column {
+  padding: 1rem;
+  transition: all 0.5s ease-in-out;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.expand-column-wrapper .column:hover {
+  -webkit-flex-basis: 40%;
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%;
+}
+
+.expand-column-wrapper .column:hover .expand-column-content {
+  opacity: 1;
+}
+
+.expand-column-wrapper .expand-column-content {
+  color: #fefefe;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .expand-column-wrapper {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.expand-column-wrapper .column:nth-of-type(1) {
+  background: <img src="17.jpg" alt="">"
+  height: 100vh;
+  background-size: cover;
+}
+
+.expand-column-wrapper .column:nth-of-type(2) {
+  background: url("https://lh3.googleusercontent.com/I9M7H_gKmOcwImhW6NLpzuGyvWWvTNiQfy6uE7Fa4cwEMiO5XGaRDpb0AvBVdxDHwBw_Fap4tIAahI_46IYvPM2wjxHy-zpxO9k3NKsuQ5LMVkEUTh6XPL6cD8LOzP58RmoumlHJNerBfjaD0CuNzx5S65HsSQice5vF2X-IJtlkO7MIwx3Etlk-MpEdf3Stth0XsaorA5TqyPpWeCDXC8ED1k-TZ3VxnBcLoSp3ZbpF9veOxxqvtB6vH9htMZQD1NgSq3_2SUSdBrZ4VyTrPfdvCvTVv7lxMSLIwWHQIbMq-pGzqjUSNc25YxnCSZfJ6nhI3rvUeEeClK-OS97AYle-joy3g5VkPQevYENjBg6GOrvMsG3Pou-G56a0jbGKzjgOF9Nk_GFYLZOrl9qKMTmyAUq7yHV8ie-gqPmzC_rAb2gV8Q6wDVOUSf_KBRU8haiOsb5E7w9CcJd_pfPz7377yf18yrH0w9ptZPUwSHbJy3hep6ptEsjiPAtv8kbsan2yrVmoSQxT5LWYtyDXXXXMNKCx3MoxuvB6-qKB3yCtpQJRi-I__6wSvrQusmknuVl4Y2Mijd_Y0_3j5hspbVnZAqUPDhm3YWT2AWRrvjz8fQ4VE3yj-WVcRU59EQoJHRbU87BEqlvJNx32QOfbSFso=w836-h626-no") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.expand-column-wrapper .column:nth-of-type(3) {
+  background: url("https://lh3.googleusercontent.com/RmCl1h8lEY37slAIc4Jc6I3AItfPzvdWfTXuxSt-rrzZvyFOquAG8yK3jOJDFgUx7SoKpkDJyU8GuvIt2M-4G5P-LCPOSJ6u7T8471m9mY89UEiZDr9K_HRxPd8SBHaVqZm2IDCTtahHX5oIFMJSsrBIq1N9cSINbRUWiMnzc310IDNveMXqO65XjGk_4wTQjUxAFjEmS8cFiXtrI0UkV6Qvypl2vlhiLnMSuHuwHIhtZ6yd6I46F1JTJTozSEcUAckzr4gtTnZfF40eGxrCNlEPT8gwd0dflaM-zdqj6Mn0fCSzvj-AfnYjyp2BSeWwdzRDQgRfxHPCWFMjenBw73asj5Nw_U-chtiFYBx3QsSqlC11kukRzbBk8NMeAGo1_RtidhJ-ZMxJ0BI92GhZXr4PZ8P1oS2anpYMoVH6zkeFCh094ZcUZ0uCDZst9avLcOw7PJxhbs-SGi4zJ90BQ1fTEA5tP80myuw5FvM0BYxV6ZdKSKstBNv_H1CCcwjmgEh_tl5e2O3fCy-H20AjmsgEJ4N1FvzWd5yclG3aHO6cU9aMdUg9JqgQ-zvMvBkA5CM3TP7sKFmKSGX_VnWzBvlMH9rn0sr5V7dMPprgDPsO0LKaNXlKoNyWu4oFQdfUIVBn5oKGdS0N2RHu0hxu9sB9=w834-h626-no") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.expand-column-wrapper .column:nth-of-type(4) {
+  background: url("https://images.pexels.com/photos/24248/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.expand-column-wrapper .column:nth-of-type(5) {
+  background: url("https://images.pexels.com/photos/41951/solar-system-emergence-spitzer-telescope-telescope-41951.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.expand-column-wrapper .column:nth-of-type(6) {
+  background: url("https://images.pexels.com/photos/2156/sky-earth-space-working.jpg") center center no-repeat;
+  height: 100vh;
+  background-size: cover;
+}

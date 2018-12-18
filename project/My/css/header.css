@@ -1,0 +1,5 @@
+ul{width:auto;}
+ul li { list-style: none; width:auto; height:auto; display:inline-block }
+ul li a{ float: none; display:block;}
+ul li a{ margin-bottom: 20px;margin-right: 15px;}
+ul li a span{display:block;}
